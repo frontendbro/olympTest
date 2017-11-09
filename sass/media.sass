@@ -1,0 +1,66 @@
+@media (max-width:1280px)
+	.wrapper
+		max-width: 1280px
+
+@media (max-width:1152px)
+	.wrapper
+		max-width: 1152px
+		padding: 0 10px
+	.content
+		flex-direction: column
+	.content-left
+		align-items: center
+		margin-bottom: 50px
+	.content-right
+		align-items: center
+
+
+@media (max-width:1024px)
+	.wrapper
+		max-width: 1024px
+
+@media (max-width:800px)
+	.wrapper
+		max-width: 800px
+
+@media (max-width:600px)
+	.wrapper
+		max-width: 600px
+
+	.header-nav
+		display: none
+
+	.content-right-banner
+		display: none
+
+	.content-right-info
+		flex-direction: column
+		align-items: center
+		& > :nth-child(n):not(:last-child)
+			margin-right: 0
+
+	.content-indicators
+		flex-direction: column
+
+	.content-left_h1
+		text-align: center
+
+	.content-action
+		flex-direction: column
+
+	.content-action-button
+		margin-bottom: 20px
+
+	.footer-left
+		flex-wrap: wrap
+		justify-content: center
+		& > :nth-child(n)
+			margin-bottom: 10px
+
+@media (max-width:480px)
+	.wrapper
+		max-width: 480px
+
+@media (max-width:320px)
+	.wrapper
+		max-width: 320px

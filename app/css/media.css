@@ -1,0 +1,87 @@
+@media (max-width: 1280px) {
+  .wrapper {
+    max-width: 1280px; } }
+
+@media (max-width: 1152px) {
+  .wrapper {
+    max-width: 1152px;
+    padding: 0 10px; }
+  .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .content-left {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 50px; }
+  .content-right {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; } }
+
+@media (max-width: 1024px) {
+  .wrapper {
+    max-width: 1024px; } }
+
+@media (max-width: 800px) {
+  .wrapper {
+    max-width: 800px; } }
+
+@media (max-width: 600px) {
+  .wrapper {
+    max-width: 600px; }
+  .header-nav {
+    display: none; }
+  .content-right-banner {
+    display: none; }
+  .content-right-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .content-right-info > :nth-child(n):not(:last-child) {
+      margin-right: 0; }
+  .content-indicators {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .content-left_h1 {
+    text-align: center; }
+  .content-action {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .content-action-button {
+    margin-bottom: 20px; }
+  .footer-left {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .footer-left > :nth-child(n) {
+      margin-bottom: 10px; } }
+
+@media (max-width: 480px) {
+  .wrapper {
+    max-width: 480px; } }
+
+@media (max-width: 320px) {
+  .wrapper {
+    max-width: 320px; } }

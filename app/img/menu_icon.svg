@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="14px" viewBox="0 0 22 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>menu icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1467.000000, -37.000000)" fill="#FFFFFF">
+            <g id="Group-6" transform="translate(178.000000, 20.000000)">
+                <g id="menu" transform="translate(1179.000000, 0.000000)">
+                    <g id="menu-icon" transform="translate(110.000000, 17.000000)">
+                        <path d="M0,1 C0,0.44771525 0.43945834,0 1.00246167,0 L20.9975383,0 C21.5511826,0 22,0.443864822 22,1 C22,1.55228475 21.5605417,2 20.9975383,2 L1.00246167,2 C0.448817378,2 0,1.55613518 0,1 Z M0,7 C0,6.44771525 0.43945834,6 1.00246167,6 L20.9975383,6 C21.5511826,6 22,6.44386482 22,7 C22,7.55228475 21.5605417,8 20.9975383,8 L1.00246167,8 C0.448817378,8 0,7.55613518 0,7 Z M0,13 C0,12.4477153 0.43945834,12 1.00246167,12 L20.9975383,12 C21.5511826,12 22,12.4438648 22,13 C22,13.5522847 21.5605417,14 20.9975383,14 L1.00246167,14 C0.448817378,14 0,13.5561352 0,13 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

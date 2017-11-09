@@ -1,0 +1,267 @@
+@import "vars.sass"
+
+*
+	padding: 0
+	margin: 0
+	box-sizing: border-box
+
+html, body
+	font-family: "OpenSans", "RobotoRegular", sans-serif
+	font-size: 14px
+	height: 100%
+
+.main
+	background: url('/img/BG.png') no-repeat center
+	background-size: cover
+	display: flex
+	min-height: 100%
+
+.wrapper
+	max-width: 1280px
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	flex-grow: 1
+	margin: 0 auto
+
+.button
+	padding: 12px 11px
+	border: 1px solid $border-color
+	color: $white
+	font-size: 13px
+	display: flex
+	align-items: center
+	border-radius: 2px
+	cursor: pointer
+	transition: all .10s ease
+	&:hover
+		background-color: $shadow
+
+.button-borderless
+	display: flex
+	align-items: center
+	border-radius: 2px
+	padding: 10px 20px
+	background-color: $dark-blue
+	transition: all .30s ease
+	& > :first-child
+		margin-right: 10px
+	&:hover
+		cursor: pointer
+		.button-borderless_txt
+			text-decoration: underline
+
+.button-borderless_txt
+	color: $button-txt
+	font-size: 11px
+	line-height: 14px
+	transition: all .30s ease
+// header
+.header
+	display: flex
+	justify-content: space-between
+	align-items: center
+	margin-top: 20px
+	margin-bottom: 100px
+	height: 50px
+
+.header-nav_link
+	position: relative
+	color: $white
+	margin-right: 50px
+	font-size: 16px
+	text-decoration: none
+	padding-bottom: 6px
+	transition: all .30s ease
+	&:hover
+		box-shadow: 0 1px 0 0 $white
+	&:last-child
+		margin-right: 0
+
+.header-nav_link._active-link
+	&:hover
+		box-shadow: none
+
+.header-menu-wrap
+	position: relative
+	display: flex
+	& > :nth-child(n):not(:last-child)
+		margin-right: 9px
+
+.button.button-menu_active
+	position: relative
+	background-color: $popover
+	
+
+.menu-popover
+	display: none
+	position: absolute
+	top: 52px
+	right: -1px
+	background: $popover
+	z-index: 2
+	&::after
+		position: absolute
+		content: ''
+		width: 46px
+		height: 20px
+		background-color: $popover
+		right: 0
+		top: -18px
+
+.menu-popover_item
+	list-style-type: none
+	padding: 8px 16px
+	white-space: nowrap
+	transition: all .30s ease
+	&:first-child
+		padding-top: 16px
+	&:last-child
+		padding-bottom: 16px
+	&:hover
+		background-color: $hover-menu-item
+
+
+// header-end
+
+.content
+	display: flex
+	justify-content: space-between
+	flex-grow: 1
+	margin-bottom: 100px
+
+//content-left
+.content-left
+	display: flex
+	flex-direction: column
+	justify-content: center
+
+.content-left_h1
+	font-size: 48px
+	color: $white
+	margin-bottom: 40px
+
+.content-left_h1_light
+	font-weight: 100
+
+.content-action
+	display: flex
+	align-items: center
+
+.content-action-button
+	display: flex
+	flex-shrink: 0
+	align-items: center
+	padding: 18px 52px
+	border-radius: 4px
+	background-color: $green
+	margin-right: 20px
+	transition: all .30s ease
+	&:hover
+		cursor: pointer
+		background-color: lighten($green, 10%)
+
+.content-action-button_icon
+	margin-right: 10px
+
+.content-action-button_txt
+	font-size: 16px
+	color: $white
+
+.content-action_info
+	color: $color-txt
+	font-size: 16px
+
+.content-indicators
+	display: flex
+	margin-bottom: 40px
+	& > :nth-child(n):not(:last-child)
+		margin-right: 40px
+
+.content-indicators-card
+	position: relative
+	display: flex
+	flex-direction: column
+	width: 164px
+	height: 182px
+	background: url('/img/Group_10.png') no-repeat center
+
+
+.content-indicators-card-inner
+	position: absolute
+	display: flex
+	flex-direction: column
+	width: 120px
+	right: -30px
+	top: 80px
+
+.content-indicators-card_h
+	font-size: 50px
+	font-weight: bold
+	color: $color-h
+	margin-bottom: 14px
+
+.content-indicators-card_h_small
+	font-size: 24px
+	font-weight: normal
+
+.content-indicators-card_txt
+	font-size: 16px
+	color: $color-txt
+	font-weight: 100
+//content-left-end
+
+// content-right
+.content-right
+	display: flex
+	flex-direction: column
+	flex-grow: 1
+	justify-content: center
+
+.content-right-banner
+	display: flex
+	justify-content: flex-end
+
+.border-image
+	border: 28px solid $black
+	border-radius: 30px
+	box-shadow: 0px 0px 0px 2px $shadow
+
+.border-image-phone
+	border: 14px solid $black
+	border-radius: 10px
+	box-shadow: 0px 0px 0px 2px $shadow
+
+.content-right-info
+	transform: translateY(-20px)
+	display: flex
+	& > :nth-child(n):not(:last-child)
+		margin-right: 60px
+
+.reward-info
+	margin-top: 60px
+	width: 112px
+
+.reward-info_logo
+	margin-bottom: 17px
+
+.reward-info_txt
+	color: $grey
+	font-size: 11px
+
+// content-right-end
+
+// footer
+.footer
+	display: flex
+	padding: 20px 0
+
+.footer-left
+	display: flex
+	& > :nth-child(n):not(:last-child)
+		margin-right: 10px
+
+.footer-right
+	display: flex
+
+// footer-end
